@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    
+  </title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- jQuery UI library -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+   $(document).ready(function() {
+  
+
+      $("#search_box").autocomplete({source: "suggestresult.php"},
+        {minLength: 3},
+        {select: function( event, ui ) {
+          console.log(ui.item.id);
+          window.location.href = "/Project6/animal.php?id=" + ui.item.id;
+        }});
+
+
+   })
+</script>
+</head>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand mb-0 h1" href="#">
+    <img src="image/i4.png" width="40" height="40" class="d-inline-block align-top" alt="">
+    C3 EXPERIENTIAL LEARNING PRIVATE LIMITED
+  </a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.php">About us</a>
+      </li>
+      <li class="nav-item active ">
+        <a class="nav-link" href="carousel.php">carousel</a>
+      </li>
+      <li class="nav-item active ">
+        <a class="nav-link" href="contact.php">contact us</a>
+      </li>
+       </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search_box">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class="jumbotron">
+  <h1>C3 EXPERIENTIAL LEARNING PRIVATE LIMITED</h1>
+  <p>Directors: AKASH BANSAL and NITIN JAIN.</p>
+</div>
+
+<section class="my-5">
+  <div class="py-5">
+    <h2 class="text-center"></h2>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg 10 col-md-6 col-12">
+        <img src="image/i4.png" class="img-fluid abouting" width="700" height="600">
+      </div>
+      <div class="col-lg-6 col-md-6 col-12">
+        <h3 class="display-4">C3 EXPERIENTIAL LEARNING PRIVATE LIMITED</h3>
+        <p class="py-3">
+C3 Experiential Learning Private Limited, an IIT and IIM alumni initiative, takes the best and refines them to be even better. The focus here of experiential learning, as the name suggests, is on experience. Education is focused on going beyond the world of theories and concentrating on the practical experience of putting those theories into action. Industrial Revolution 4.0 requires professionals who are already experienced with the practical aspects of their fields when they began a professional career. We are solving this by bringing experiential learning to the base level of primary education. We focus on taking in young children who have just stepped into the educational world and build their base of knowledge on experiential learning.
+
+We, at C3 Experiential Learning Private Limited, are developing a world-class and first of its kind product and thus, we need extraordinarily skilled people with us to get on board.</p>
+        <a href="read more.php" class="btn btn-success">read more</a>
+      </div>
+     </div>
+    </div> 
+<section class="my-5">
+<div class="py-5">
+    <h2 class="text-center">About Us</h2>
+  </div>
+ <div class="col-lg 10 col-md-6 col-12">
+
+        <h3 class="display-4">C3 EXPERIENTIAL LEARNING PRIVATE LIMITED</h3>
+        <p class="py-5">
+        <img src="image/ab1.jpg" align="right" width="800" height="500">
+      </div>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-10 col-md-6 col-12">
+      
+C3 EXPERIENTIAL LEARNING PRIVATE LIMITED is a private company. Its registered address is 35C, POCKET-IV MAYUR VIHAR, PHASE-I DELHI East ,Delhi,Delhi,India,110091.. It was incorporated on 07/11/2019.
+
+This company is registered under Registrar of Companies (RoC-Delhi) and it is classified as the Non-govt company.
+
+ 
+Its authorized capital is Rs. 100,000 and its paid up capital is Rs. 100,000.<br>
+
+
+ 
+Directors of this company are AKASH BANSAL and NITIN JAIN.
+
+C3 EXPERIENTIAL LEARNING PRIVATE LIMITED Corporate Identification Number (CIN) is U80900DL2019PTC357169 and its registration No. is 357169.<br>
+
+Current status of C3 EXPERIENTIAL LEARNING PRIVATE LIMITED is - Active.<br>
+
+C3 EXPERIENTIAL LEARNING PRIVATE LIMITED industry code is 80900 and its involved in Other education .</p>
+        <a href="read more.php" class="btn btn-success">read more</a> <br>
+      </div>
+    </div>
+  </div>
+
+<br>
+
+<br>
+<section class="my-5">
+<div class="py-5">
+  </div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/ab1.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>C3 EXPERIENTIAL LEARNING PRIVATE LIMITED</h3>
+        <p>Class of Company: Private</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="image/i4.png" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>C3 EXPERIENTIAL LEARNING PRIVATE LIMITED</h3>
+        <p>Date of Incorporation: 07 November 2019  <hr color="black"/> </p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="image/ab1.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>C3 EXPERIENTIAL LEARNING PRIVATE LIMITED</h3>
+        <p>35C, POCKET-IV MAYUR VIHAR, PHASE-I DELHI East Delhi DL 110091 IN</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+<!-- Search form -->
+<input class="search" type="text" placeholder="Search " aria-label="Search"
+ id="search_box"> 
+</div>
+
+<section class="my-5">
+  <div>
+    <h3 class="text-center">Company status - Active</h3>
+    <hr class="line" color="red"/>
+  </div>
+</section>
+
+
+  <section class="my-5">
+  <div class="py-5">
+    <h2 class="text-center">Contact us</h2>
+    <hr color="black"/>
+  </div>
+  <div class="w-50 m-auto">
+    <form action="userinfo.php" method="post">
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" name="user" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email Id</label>
+        <input type="text" name="email" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Mobile No.</label>
+        <input type="text" name="mobile" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Comment</label>
+        <textarea class="form-control" name="comment">
+        </textarea>
+      </div>
+       <button type="submit" class="btn btn-success">Submit</button>
+      
+    </form>
+  </div>
+</section>
+
+
+
+
+
+<hr color="black"/>
+<footer>
+  <p class="p-3 bg-dark text-white text-center">Mahima Choudhary<br/>Task<br />Thanks to visit us....!!!!</p>
+</footer>
+
+
+
+</body>
+</html>
